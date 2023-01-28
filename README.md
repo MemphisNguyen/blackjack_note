@@ -1,16 +1,7 @@
-# blackjack_note
+# Blackjack Note (Sổ xì dzách)
 
-A new Flutter project.
+This is an mobile application which supports blackjack player to note the results of the games.
 
-## Getting Started
+## Publication
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app is published in Vietnam region with Vietnamese supported only on [Google Play](https://play.google.com/store/apps/details?id=com.namnguyen.blackjack_note)

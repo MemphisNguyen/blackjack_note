@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
         setState(() {
           logs = (json.decode(logData) as List).map((data) {
-            if (data['from'] != null) {
+            if (data['dealer'] != null) {
               return ChangeLog.parse(data);
             }
 
