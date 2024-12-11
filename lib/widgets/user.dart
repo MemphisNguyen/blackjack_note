@@ -118,9 +118,9 @@ class _UserWidgetState extends State<UserWidget> {
             child: ListBody(
               children: [
                 TextField(
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                     label: Row(
-                      children: const [
+                      children: [
                         Text('Tên người chơi'),
                         Text(
                           '*',
@@ -240,9 +240,9 @@ class _UserWidgetState extends State<UserWidget> {
                           ),
                         ),
                       if (widget.user.isDealer)
-                        Row(
+                        const Row(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
+                          children: [
                             Icon(Icons.bookmark_sharp),
                             Text(
                               'Nhà cái',

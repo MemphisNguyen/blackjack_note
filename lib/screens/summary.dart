@@ -146,7 +146,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
                     SizedBox(
                       width: 200,
                       height: 200,
-                      child: QrImage(
+                      child: QrImageView(
                         errorCorrectionLevel: QrErrorCorrectLevel.H,
                         data:
                             '2|99|$phoneNumber|$name||0|0|${amount.toStringAsFixed(0)}||transfer_myqr',
@@ -185,12 +185,12 @@ class _SummaryScreenState extends State<SummaryScreen> {
         Container(
             margin: const EdgeInsets.all(10),
             child: isLoading
-                ? Row(
+                ? const Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [CircularProgressIndicator()],
+                        children: [CircularProgressIndicator()],
                       )
                     ],
                   )
@@ -281,7 +281,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
                                     horizontal: 5,
                                   ))
                             ]);
-                          }).toList(),
+                          }),
                         ],
                       )
                     ],

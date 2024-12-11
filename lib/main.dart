@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Sổ xì dách',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color.fromARGB(255, 243, 26, 11),
+        ),
       ),
       routes: {
         '/': (context) {

@@ -100,9 +100,9 @@ class _HomeScreenState extends State<HomeScreen> {
             child: ListBody(
               children: [
                 TextField(
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                     label: Row(
-                      children: const [
+                      children: [
                         Text('Tên người chơi'),
                         Text(
                           '*',
@@ -160,9 +160,9 @@ class _HomeScreenState extends State<HomeScreen> {
       builder: (BuildContext context) {
         return AlertDialog(
           title: const Text('Xoá dữ liệu'),
-          content: SingleChildScrollView(
+          content: const SingleChildScrollView(
             child: ListBody(
-              children: const [
+              children: [
                 Text(
                     'Bạn có chắc chắn muốn xoá tất cả dữ liệu bao gồm người chơi, số ghi nợ và nhật ký?'),
                 Text(
@@ -323,9 +323,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                 onPressed: () {
                                   _showAddUserDialog();
                                 },
-                                child: Column(
+                                child: const Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
-                                  children: const [
+                                  children: [
                                     Icon(
                                       Icons.add,
                                       size: 50,
